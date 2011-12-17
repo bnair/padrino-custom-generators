@@ -1,0 +1,11 @@
+= Custom Generators (padrino-custom-generators)
+
+=== Overview
+
+This is a gem to extend Padrino generator capabilities by transparently adding custom generators to Padrino applications. 
+It was modeled on the admin application generator.  It was designed to be used primarily as a development tool, so used only in the 
+development group and not packaged for production release.  
+
+=== Test Generator
+
+An example generator that echos back its arguments to the user.  Use to ensure that custom generators are working as expected.
